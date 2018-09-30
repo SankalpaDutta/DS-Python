@@ -1,0 +1,33 @@
+Sankalpa@LAPTOP-2SV62GHJ MINGW64 /d/My Works/DataWorks (master)
+$ git config --global user.email "sankalpa.dutta.mail@gmail.com"
+
+Sankalpa@LAPTOP-2SV62GHJ MINGW64 /d/My Works/DataWorks (master)
+$ git config --global user.name "SankalpaDutta"
+
+Sankalpa@LAPTOP-2SV62GHJ MINGW64 /d/My Works/DataWorks (master)
+$ git init
+Reinitialized existing Git repository in D:/My Works/DataWorks/.git/
+
+Sankalpa@LAPTOP-2SV62GHJ MINGW64 /d/My Works/DataWorks (master)
+$ git add .
+
+Sankalpa@LAPTOP-2SV62GHJ MINGW64 /d/My Works/DataWorks (master)
+$ git commit -m "second try"
+On branch master
+nothing to commit, working tree clean
+
+Sankalpa@LAPTOP-2SV62GHJ MINGW64 /d/My Works/DataWorks (master)
+$ git remote add origin http://github.com/SankalpaDutta/DS-Python.git
+fatal: remote origin already exists.
+
+Sankalpa@LAPTOP-2SV62GHJ MINGW64 /d/My Works/DataWorks (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 295 bytes | 295.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/SankalpaDutta/DS-Python.git
+   c94bf08..d7df324  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
